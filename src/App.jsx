@@ -70,7 +70,10 @@ function App() {
     {/* nav */}
     <div className="navbar ">
       <div className="flex-1">
-        <a className="btn btn-ghost text-gray-400 text-3xl">RYVEN</a>
+      <a className={`btn btn-ghost flex items-center gap-1 ${theme === "light" ? "text-black" : "text-white"} text-3xl`}>
+  RYVEN<span className="text-green-500 text-4xl">.</span>co
+</a>
+
       </div>
       <div className="flex-none">
         <label className="swap swap-rotate">
